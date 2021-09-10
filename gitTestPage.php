@@ -8,7 +8,7 @@
 <body>
 	
 	<h1>WDV341 Intro PHP</h1>
-	<h2>PHP Git Test Page</h2>\
+	<h2>PHP Git Test Page</h2>
 	<h3>test pull github 3</h3>
 	
 	<?php
