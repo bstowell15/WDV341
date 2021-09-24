@@ -91,9 +91,10 @@
 	<h2>PHP Homework and Projects</h2>
 	
 	
-	<ul>
+		<ul>
 			<li><a href= "https://brianstowell.name/" target= "_blank">Home Page</a></li>
-			
+			<li><a href= "PHPbasics.php">PHP Basics</a></li>
+			<li><a href= "PHPfunctions.php">PHP Functions</a></li>
 		</ul>
 		
 		
