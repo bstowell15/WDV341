@@ -96,6 +96,8 @@
 			<li><a href= "PHPbasics.php">PHP Basics</a></li>
 			<li><a href= "PHPfunctions.php">PHP Functions</a></li>
 			<li><a href= "WDV101-DemonstrateInputForm/DemonstrateFormHandler.php">PHP Form Handler</a></li>
+			<li><a href= "TTLformHandler-email.php">PHP Form Handler TTL</a></li>
+			<li><a href= "emailer.php">Email Page TTL</a></li>
 		</ul>
 		
 		

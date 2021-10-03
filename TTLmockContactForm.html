@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	
+<title>Cotact form with Email Demo</title>
+		<!--
+			Author: Brian Stowell
+			Date: 10/1/2021
+		-->
+
+		<style>
+		
+			form	{
+					width:800px;
+					margin:auto;
+					background-color:orangered;	
+					padding-left: 20px;
+				}
+
+			form legend	{
+					font-size:larger;
+					text-align:center;
+				}
+			
+			body { 
+				background-image:url("grey_wash_wall.png"); 
+				font-family: Trebuchet MS, Helvetica, sans-serif;
+				}
+				
+			h1 { 
+				color: white;
+				background-color: orangered;
+				padding:20px;
+				margin:20px;
+				text-align:center;
+				border-style:groove;
+				text-transform:uppercase;
+				}
+				
+			h2	{
+				color: black;
+				background-color: gray;
+				padding:20px;
+				border-style:groove;
+				margin:20px;
+				text-align:center;
+				}
+				
+			h3	{
+				border-style:groove;
+				color: white;
+				background-color:black;
+				float:center;
+				margin:20px;
+				padding:20px;
+				font-weight:bold;
+				
+				}
+				
+			h4	{
+				color: white;
+				float:center;
+				margin:20px;
+				padding:10px;
+				font-weight:bold;
+				
+				}
+			
+			
+			p	{
+				border-style:groove;
+				background-color:black;
+				color:white;
+				margin:20px;
+				padding:20px;
+				font-weight:bold;
+			}
+			
+		</style>
+</head>
+
+<body>
+	
+	<h1>To The Limit Fitness</h1>
+	
+	<form id="form1" name="form1" method="post" action="TTLformHandler-email.php">
+	<br>
+		
+	<h2>Contact Form</h2>
+	<h3>Please fill out the form below and hit submit when you are finished.</h3>
+  	
+	<p>
+  	<label for="contact_date">Today's Date:</label> 
+		<input type="date" name="contact_date" id="contact_date" placeholder="mm/dd/YYYY" /></p>
+		
+  	<p>
+  	<label for="first_name">First Name:</label> 
+    <input type="text" name="first_name" id="first_name" />
+  	
+  	<label for="last_name">Last Name:</label> 
+    <input type="text" name="last_name" id="last_name" />
+ 	</p>
+  
+  
+   	<p><label for="customer_email">Contact Email:</label>
+    <input type="email" name="customer_email" id="customer_email" placeholder="email@mail.com"/></p>
+		
+	<p>
+		<label for="contact_reasons">Please choose from the dropdown menu.</label>
+		<select name="contact_reasons" id="contact_reasons">
+		
+			<option value= "">Please choose your reason for contacting us today</option>
+			<option value= "Registration">Registration</option>
+			<option value= "Classes">Fitness Classes</option>
+			<option value= "Advertising">Advertising</option>
+			<option value= "Operations">Operations/Management</option>
+			<option value= "Other">Other Reason</option>
+		
+		</select></p>
+		
+		<p>
+		<label for="comment">Please leave any comments in the box below.</label>
+			<br><br>
+		<textarea rows="7" cols="67" name="comment">
+		</textarea>
+		</p>
+		
+		<h3>
+    	<input type="submit" name="button" id="button" value="Submit" />
+   		<input type="reset" name="button2" id="button2" value="Reset" />
+  		</h3>
+		<br>
+		
+	</form>
+	
+</body>
+</html>
